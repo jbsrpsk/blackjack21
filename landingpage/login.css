@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/pics/login.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'outfit',sans-serif;
+}
+#logo{
+    font-weight: bold;
+    cursor: pointer;
+}
+#logo:hover{
+    transition-duration: 0.2s;
+    border-bottom: 2px solid goldenrod;
+}
+.navbar{
+    display: flex;
+   justify-content: space-around;
+    background-color: beige;
+    align-items: center;
+    height: 8%;
+    color: black;
+}
+.navbar .icons{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: larger;
+}
+#githubIcon:hover{
+    position: relative;
+    top:2px;
+}
+#mailIcon:hover {
+    position: relative;
+    top: 2px;
+}
+
+.navbar h1{
+    position:relative;
+    right: 70px ;
+}
+.container{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 35%;
+    height:40%;
+    margin: 180px 0px 0px 100px;
+}
+.formDiv{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 60px;
+}
+.formDiv label{
+    position: relative;
+    bottom: 10px;
+}
+.formDiv input{
+    border: none;
+    font-size: 20px;
+    width: 60%;
+    margin-top: 20px;
+    padding: 10px;
+}
+.formDiv input:focus{
+    outline: none;
+}
+.formDiv button{
+    border: none;
+    margin-top:30px;
+    width: 20%;
+    padding: 10px;
+}
+#confirmBtn:hover{
+    transition: 0.2s;
+    box-shadow: 3px 3px goldenrod;
+}

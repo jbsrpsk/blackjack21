@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/pics/bgblackjack.jpg);
+    background-size: cover;
+    font-family: 'outfit';
+}
+h1{
+    font-weight: bold;
+    cursor: pointer;
+}
+#logo:hover{
+    transition-duration: 0.2s;
+    border-bottom: 2px solid goldenrod;
+}
+.icons a{
+    
+    color: black;
+}
+#insideHeading{
+    text-align: center;
+}
+.navbar{
+    display: flex;
+   justify-content: space-around;
+    background-color: beige;
+    align-items: center;
+    height: 8%;
+    color: black;
+}
+.navbar .icons{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: larger;
+}
+#githubIcon:hover{
+    position: relative;
+    top:2px;
+}
+#mailIcon:hover {
+    position: relative;
+    top: 2px;
+}
+
+.navbar h1{
+    position:relative;
+    right: 70px ;
+}
+.container{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    width: 45%;
+    height:70%;
+    margin: 30px auto 0;
+    padding: 20px;
+    color: white;
+}
+#startBtn{
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
+    width: 20%;
+    margin-top: 30px;
+    border: none;
+}
+#startBtn:hover{
+    transition: 0.2s;
+    box-shadow: 3px 3px goldenrod;
+}
+#startDiv{
+    text-align: center;
+}
